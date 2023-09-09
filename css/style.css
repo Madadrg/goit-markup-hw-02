@@ -1,3 +1,121 @@
 body {
     font-family: Roboto, sans-serif;
 }
+
+:root {
+  --link-color:
+}
+
+.team {
+    background-color:#F5F4FA;
+}
+
+.team-members {
+    background-color: white;
+}
+
+.solutions-for-business {
+    background-color: #2F303A;
+    cursor: pointer;
+}
+
+.address {
+    background-color: #2F303A;
+}
+
+.address a {
+    text-decoration: none;
+}
+.address a:link
+.address a:focus {
+    color:#FFFFFF99;
+}
+
+.request-service {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    text-shadow:#00000026
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2.14;
+    letter-spacing: 6%;
+    text-align: center;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 4.28;
+    letter-spacing: 6%;
+    text-align: center;
+}
+
+h2 {
+    color: background: #212121;    ;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 3.01;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+h3 {
+    color: background: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+}
+
+h4 {
+    color: background: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+p {
+    color: background: #757575;
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+.types-of-projects {
+    cursor: pointer;
+    background-color: #F5F4FA;
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.85;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+.project-title {
+    color: background: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.57;
+    letter-spacing: 6%;
+}
+
+.project-type {
+    color:background: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.14;
+    letter-spacing: 3%;
+}
+
+.website-pages {
+    color:#212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 2%;
+}
