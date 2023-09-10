@@ -7,16 +7,21 @@ body {
     background-color: #2F303A;
 }
 
-.request-service {
-    background-color: #2196F3;
+.solutions-for-business button {
     color: #FFFFFF;
-    text-shadow:#00000026
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 2.14;
     letter-spacing: 6%;
     text-align: center;
+}
+
+.solutions-for-business button:hover,
+.solutions-for-business button:focus {
     cursor: pointer;
+    background-color:#2196F3;
+    text-shadow: 0px 4px 4px 0px #00000026;
 }
 
 .team {
@@ -74,6 +79,7 @@ p {
     cursor: pointer;
     background-color: #F5F4FA;
     color: #212121;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.85;
@@ -152,13 +158,18 @@ color:#2196F3;
     font-style: normal;
 }
 
-.contacts-footer {
+.address .contacts-footer a {
     color:#FFFFFF99;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 3%;
     font-style: normal;
+}
+
+.address .contacts-footer a:hover,
+.address .contacts-footer a:focus {
+color:#2196F3;
 }
 
 .logo {
