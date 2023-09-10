@@ -1,34 +1,10 @@
 body {
+    color:#212121;
     font-family: Roboto, sans-serif;
-}
-
-:root {
-  --link-color:
-}
-
-.team {
-    background-color:#F5F4FA;
-}
-
-.team-members {
-    background-color: white;
 }
 
 .solutions-for-business {
     background-color: #2F303A;
-    cursor: pointer;
-}
-
-.address {
-    background-color: #2F303A;
-}
-
-.address a {
-    text-decoration: none;
-}
-.address a:link
-.address a:focus {
-    color:#FFFFFF99;
 }
 
 .request-service {
@@ -40,6 +16,15 @@ body {
     line-height: 2.14;
     letter-spacing: 6%;
     text-align: center;
+    cursor: pointer;
+}
+
+.team {
+    background-color:#F5F4FA;
+}
+
+.team-members {
+    background-color: white;
 }
 
 h1 {
@@ -85,7 +70,7 @@ p {
     text-align: center;
 }
 
-.types-of-projects {
+.types-of-projects button {
     cursor: pointer;
     background-color: #F5F4FA;
     color: #212121;
@@ -94,6 +79,12 @@ p {
     line-height: 1.85;
     letter-spacing: 3%;
     text-align: center;
+}
+
+.projects .types-of-projects button:hover,
+.projects .types-of-projects button:focus {
+    color:#FFFFFF;
+    background-color:#2196F3;
 }
 
 .project-title {
@@ -112,10 +103,71 @@ p {
     letter-spacing: 3%;
 }
 
-.website-pages {
+.global-header .main-navigation a {
     color:#212121;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 2%;
+    text-decoration: none;
+}
+
+.global-header .main-navigation a:hover,
+.global-header .main-navigation a:focus { 
+    color:#2196F3;
+}
+
+.contacts-header a {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 2%;
+    text-decoration: none;
+}
+
+.contacts-header a:hover,
+.contacts-header a:focus {
+color:#2196F3;
+}
+
+.address {
+    background-color: #2F303A;
+}
+
+.address a {
+    text-decoration: none;
+}
+.address a:link
+.address a:focus {
+    color:#FFFFFF99;
+}
+
+.address-footer {
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    font-style: normal;
+}
+
+.contacts-footer {
+    color:#FFFFFF99;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 3%;
+    font-style: normal;
+}
+
+.logo {
+    color:linear-gradient(0deg, #2196F3, #2196F3),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 2.18;
+    letter-spacing: 3%;
+    text-decoration: none;
 }
