@@ -3,11 +3,20 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.current{
+    color: var(#2196F3);
+}
+
+ul {
+    list-style-type: none;
+}
+
 .solutions-for-business {
     background-color: #2F303A;
 }
 
 .solutions-for-business button {
+    background-color:#2196F3;
     color: #FFFFFF;
     font-family: inherit;
     font-weight: 700;
@@ -20,7 +29,7 @@ body {
 .solutions-for-business button:hover,
 .solutions-for-business button:focus {
     cursor: pointer;
-    background-color:#2196F3;
+    background-color:#1c8fee;
     text-shadow: 0px 4px 4px 0px #00000026;
 }
 
@@ -84,7 +93,6 @@ p {
     font-size: 16px;
     line-height: 1.85;
     letter-spacing: 3%;
-    text-align: center;
 }
 
 .projects .types-of-projects button:hover,
@@ -172,9 +180,37 @@ color:#2196F3;
 color:#2196F3;
 }
 
-.logo {
-    color:linear-gradient(0deg, #2196F3, #2196F3),
-    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+.Web {
+    color: #2196f3;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 2.18;
+    letter-spacing: 3%;
+    text-decoration: none;
+}
+
+.Studio {
+    color:#FFFFFF;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 2.18;
+    letter-spacing: 3%;
+    text-decoration: none;
+}
+.Web-header {
+    color:#2196f3;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 2.18;
+    letter-spacing: 3%;
+    text-decoration: none;
+}
+
+.Studio-header {
+    color:#000000 ;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
